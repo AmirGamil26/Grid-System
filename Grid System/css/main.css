@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.image{
+    background: url('../img/laptop.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.8;
+    background-attachment: fixed;
+}
+.grid{
+    width: 100%;
+    text-align: center;
+    padding: 20px 3px;
+}
+.grid h1{
+    font-size: 25px;
+    font-weight: normal;
+    color: rgb(175, 172, 172);
+}
+.grid hr{
+    width: 30%;
+    margin: 18px auto;
+}
+/*   Section 1 of grid system   */
+.grid .service1{
+    background-color: rgb(206, 202, 202);
+    width: 30%;
+    margin: 18px auto;
+    display: inline-block;
+    padding: 10px 10px;
+    margin-right: 8px;
+}
+.grid .service1 .fa-bolt{
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(27, 27, 27);
+}
+.grid .service1 h3{
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(27, 27, 27);
+    margin: 10px auto;
+}
+.grid .service1 p{
+    font-size: 13px;
+    font-weight: normal;
+    color: rgb(92, 91, 91);
+    width: 76%;
+    margin: 10px auto;
+}
+/*   Section 2 of grid system   */
+.grid .service2{
+    background-color: rgb(206, 202, 202);
+    width: 30%;
+    margin: 18px auto;
+    display: inline-block;
+    padding: 10px 10px;
+    margin-right: 8px;
+}
+.grid .service2 .fa-rocket{
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(27, 27, 27);
+}
+.grid .service2 h3{
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(27, 27, 27);
+    margin: 10px auto;
+}
+.grid .service2 p{
+    font-size: 13px;
+    font-weight: normal;
+    color: rgb(92, 91, 91);
+    width: 76%;
+    margin: 10px auto;
+}
+/*   Section 3 of grid system   */
+.grid .service3{
+    background-color: rgb(206, 202, 202);
+    width: 30%;
+    margin: 18px auto;
+    display: inline-block;
+    padding: 10px 10px;
+    margin-right: 8px;
+}
+.grid .service3 .fa-database{
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(27, 27, 27);
+}
+.grid .service3 h3{
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(27, 27, 27);
+    margin: 10px auto;
+}
+.grid .service3 p{
+    font-size: 13px;
+    font-weight: normal;
+    color: rgb(92, 91, 91);
+    width: 76%;
+    margin: 10px auto;
+}
